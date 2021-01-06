@@ -1,0 +1,322 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 135%;
+}
+
+p {
+  margin-left: 20px;
+  margin-top: 3px;
+  text-align: left;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 135%;
+}
+
+h1 {
+  font-size: 25px;
+  letter-spacing: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 135%;
+}
+
+h2 {
+  letter-spacing: 5px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-align: left;
+  font-size: 135%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 135% -10;
+}
+
+.mainDiv {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+}
+
+.asideAndArticle {
+  width: 80%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.asideAndArticle aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  width: 30%;
+  margin: 10px;
+  border-top: 5px solid #4285f4;
+  border-left: 5px solid #db4437;
+  border-bottom: 5px solid #f4b400;
+  border-right: 5px solid #0f9d58;
+  border-radius: 30px;
+  border-radius: 30px;
+  background: white;
+}
+
+.asideAndArticle article {
+  width: 70%;
+  margin: 10px;
+  border-top: 5px solid #4285f4;
+  border-left: 5px solid #db4437;
+  border-bottom: 5px solid #f4b400;
+  border-right: 5px solid #0f9d58;
+  border-radius: 30px;
+  border-radius: 30px;
+  background: white;
+}
+
+.asideAndArticle p:nth-child(4) {
+  margin-bottom: 20px;
+}
+
+footer {
+  width: 80%;
+  height: 100px;
+  margin: 10px;
+  border-top: 5px solid #4285f4;
+  border-left: 5px solid #db4437;
+  border-bottom: 5px solid #f4b400;
+  border-right: 5px solid #0f9d58;
+  border-radius: 30px;
+  border-radius: 30px;
+  background: white;
+}
+
+.ArticleAllDiv {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ArticleAllDiv div {
+  width: 80%;
+  margin: 10px;
+  border-top: 5px solid #0f9d58;
+  border-left: 5px solid #f4b400;
+  border-bottom: 5px solid #4285f4;
+  border-right: 5px solid #db4437;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.skilsList {
+  width: 90%;
+  height: 50px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.skilsListHeders {
+  text-align: center;
+}
+
+aside h2 {
+  color: #4285f4;
+  border-bottom: 1px solid darkblue;
+}
+
+.profile {
+  width: 80%;
+  height: 250px;
+  border-top: 5px solid #0f9d58;
+  border-left: 5px solid #f4b400;
+  border-bottom: 5px solid #4285f4;
+  border-right: 5px solid #db4437;
+  border-radius: 30px;
+  background-color: #ffbc42;
+  background-image: linear-gradient(319deg, #ffbc42 0%, #28965a 37%, #ee6352 100%);
+  margin: 30px;
+}
+
+.profile img {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 30px;
+}
+/*# sourceMappingURL=App.css.map */

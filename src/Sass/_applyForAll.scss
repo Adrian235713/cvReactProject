@@ -1,0 +1,38 @@
+$FontSizeCont: 135%;
+
+* {
+  box-sizing: border-box;
+  font-size: $FontSizeCont;
+}
+
+p {
+  margin-left: 20px;
+  margin-top: 3px;
+  text-align: left;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: $FontSizeCont;
+}
+
+h1 {
+  font-size: 25px;
+  letter-spacing: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: $FontSizeCont;
+}
+h2 {
+  letter-spacing: 5px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-align: left;
+  font-size: $FontSizeCont;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: $FontSizeCont -10;
+}

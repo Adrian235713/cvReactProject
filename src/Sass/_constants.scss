@@ -1,0 +1,27 @@
+$basciColorBlue: #4285f4;
+$basciColorRed: #db4437;
+$basciColorYellow: #f4b400;
+$basciColorGreen: #0f9d58;
+
+$magin: 10px;
+
+@mixin rainbowBorder {
+  border-top: 5px solid $basciColorBlue;
+  border-left: 5px solid $basciColorRed;
+  border-bottom: 5px solid $basciColorYellow;
+  border-right: 5px solid $basciColorGreen;
+  border-radius: 30px;
+}
+
+@mixin rainbowBorderRewers {
+  border-top: 5px solid $basciColorGreen;
+  border-left: 5px solid $basciColorYellow;
+  border-bottom: 5px solid $basciColorBlue;
+  border-right: 5px solid $basciColorRed;
+  border-radius: 30px;
+}
+
+@mixin experienceEducation {
+  text-align: center;
+}
+
