@@ -206,6 +206,11 @@ a {
           align-items: stretch;
 }
 
+.asideAndArticle h1 {
+  margin-top: 50px;
+  font-size: 35px;
+}
+
 .asideAndArticle aside {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -243,19 +248,6 @@ a {
 
 .asideAndArticle p:nth-child(4) {
   margin-bottom: 20px;
-}
-
-footer {
-  width: 80%;
-  height: 100px;
-  margin: 10px;
-  border-top: 5px solid #4285f4;
-  border-left: 5px solid #db4437;
-  border-bottom: 5px solid #f4b400;
-  border-right: 5px solid #0f9d58;
-  border-radius: 30px;
-  border-radius: 30px;
-  background: white;
 }
 
 .ArticleAllDiv {
@@ -301,7 +293,7 @@ aside h2 {
 
 .profile {
   width: 80%;
-  height: 250px;
+  height: 400px;
   border-top: 5px solid #0f9d58;
   border-left: 5px solid #f4b400;
   border-bottom: 5px solid #4285f4;
@@ -318,5 +310,76 @@ aside h2 {
   max-width: 100%;
   max-height: 100%;
   border-radius: 30px;
+}
+
+footer {
+  width: 80%;
+  height: 150px;
+  margin: 10px;
+  border-top: 5px solid #4285f4;
+  border-left: 5px solid #db4437;
+  border-bottom: 5px solid #f4b400;
+  border-right: 5px solid #0f9d58;
+  border-radius: 30px;
+  border-radius: 30px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .divFooter1 {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .divFooter1 h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+footer .divFooter2 {
+  width: 25%;
+}
+
+footer .divFooter2 img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer .divFooter3 {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .divFooter3 img {
+  width: 250px;
+  height: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*# sourceMappingURL=App.css.map */

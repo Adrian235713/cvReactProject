@@ -102,3 +102,8 @@ let education = [
         academicTitle: 'Magister'
     },
 ]
+
+let Projects =[
+    {
+    }
+] 

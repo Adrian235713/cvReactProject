@@ -9,6 +9,10 @@
 }
 
 .asideAndArticle {
+  h1 {
+    margin-top: 50px;
+    font-size: 35px;
+  }
   width: 80%;
   height: 90%;
   display: flex;
@@ -38,15 +42,6 @@
   p:nth-child(4) {
     margin-bottom: 20px;
   }
-}
-
-footer {
-  width: 80%;
-  height: 100px;
-  margin: 10px;
-  @include rainbowBorder;
-  border-radius: 30px;
-  background: white;
 }
 
 .ArticleAllDiv {

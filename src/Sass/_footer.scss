@@ -1,0 +1,44 @@
+footer {
+  width: 80%;
+  height: 150px;
+  margin: 10px;
+  @include rainbowBorder;
+  border-radius: 30px;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+
+  .divFooter1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    h2 {
+      text-align: center;
+      font-size: 25px;
+    }
+  }
+  .divFooter2 {
+    width: 25%;
+    img {
+      width: 150px;
+      height: 150px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .divFooter3 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    img {
+      width: 250px;
+      height: 120px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}

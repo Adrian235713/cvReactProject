@@ -2,6 +2,7 @@
 import Article from './AppComponents/Article';
 import Profile from './AppComponents/Profile';
 import MainInformation from './AppComponents/MainInformation';
+import Footer from './AppComponents/Footer'
 
 // CSS
 import './Sass/App.css';
@@ -17,8 +18,6 @@ function App() {
           <Profile/>
           <MainInformation/>
 
-
-
         </aside>
         
         <article>
@@ -28,7 +27,7 @@ function App() {
         </div>
 
       <footer>
-        
+        <Footer/>
       </footer>
     </div>
   );
